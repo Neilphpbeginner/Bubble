@@ -1,4 +1,5 @@
 import java.awt.Graphics;
+import java.util.Random;
 
 import javax.swing.JPanel;
 import javax.swing.JSlider;
@@ -8,6 +9,7 @@ import javax.swing.event.ChangeListener;
 public class Bubble extends JPanel implements ChangeListener{
 	
 		int raduis	=	0;
+		Random x	=	new Random();
 
 	@Override
 	public void stateChanged(ChangeEvent e) {
