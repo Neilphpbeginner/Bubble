@@ -9,7 +9,7 @@ import javax.swing.event.ChangeListener;
 public class Bubble extends JPanel implements ChangeListener{
 	
 		int raduis	=	0;
-		Random x	=	new Random();
+		Random x	=	new Random();  
 
 	@Override
 	public void stateChanged(ChangeEvent e) {
