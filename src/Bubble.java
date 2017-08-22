@@ -33,7 +33,6 @@ public class Bubble extends JPanel implements ChangeListener{
 		g	=	x.nextInt(255);
 		b	=	x.nextInt(255);
 		Color	myColor	=	new Color(r,g,b);
-		
 		arg0.setColor(myColor);
 		
 		int x	=	((super.getWidth()/2)-(raduis/2));
