@@ -10,6 +10,8 @@ public class Bubble extends JPanel implements ChangeListener {
 	private static final long serialVersionUID = 1L;
 	private int raduis = 100;
 	private int r, g, b;
+	
+//	Commit Test
 
 	public void setColorParms(int red, int blue, int green) {
 		this.r = red;
